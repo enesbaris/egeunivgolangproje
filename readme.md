@@ -1,12 +1,8 @@
-# Go (Golang) Programlama Dili: Kapsamlı ve Açıklamalı Rehber
+# Go (Golang) Programlama Dili:
 
 ![Go Logo](https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png)
 
 > **"Go, Google'ın yazılım mühendisliği problemlerine cevabıdır."** — Rob Pike
-
-Bu doküman, **Go (Golang)** programlama dilini öğrenmek ve referans olarak kullanmak isteyenler için hazırlanmış
-**kapsamlı, açıklamalı ve GitHub uyumlu bir README** dosyasıdır.  
-Amaç; Go’nun temel felsefesini, sözdizimini ve pratik kullanım alanlarını sade ama detaylı şekilde sunmaktır.
 
 ---
 
@@ -278,6 +274,3 @@ go mod tidy
 
 Muhammed Enes Barış  
 Roni Kılıç  
-
-**Ders:** Nihat Hoca – Yazılım Mimarileri  
-**Kaynak:** Ege Üniversitesi Golang Proje Grubu
