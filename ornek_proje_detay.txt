@@ -1,0 +1,22 @@
+PROJE: Go (Golang) ile RESTful API (Kitaplık Uygulaması)
+
+Bu proje, Go dilinin standart kütüphanelerini kullanarak harici bir framework'e (Gin, Echo vb.) ihtiyaç duymadan nasıl web sunucusu oluşturulacağını gösterir. Proje, HTTP isteklerini dinler ve verileri JSON formatında sunar.
+
+Projede Kullanılan Temel Kavramlar:
+
+1- Struct (Yapı)
+Go dilinde nesne tabanlı programlamadaki "Class" yerine kullanılan yapıdır. Bu projede kitap verilerinin (ID, Başlık, Yazar) şablonunu oluşturmak için kullanılmıştır. "json" etiketleri sayesinde bu yapı otomatik olarak web formatına çevrilir.
+
+2- Slice (Dilim)
+Veritabanı bağlantısı yerine, verileri RAM üzerinde tutmak için kullanılan dinamik dizilerdir. Projede kitap listesi bir Slice içinde saklanmaktadır.
+
+3- net/http Paketi
+Go'nun en güçlü yanlarından biridir. Ekstra bir kuruluma gerek kalmadan web sunucusu ayağa kaldırmayı, portları dinlemeyi (Listen) ve yönlendirmeleri (Routing) yapmayı sağlar.
+
+4- JSON Encoding
+Go içindeki verilerin (Struct ve Slice), web tarayıcılarının ve diğer uygulamaların anlayabileceği JSON formatına dönüştürülmesidir. Projede `json.NewEncoder` kullanılarak veriler API cevabı olarak gönderilmiştir.
+
+5- Routing (Yönlendirme)
+Gelen isteklerin hangi fonksiyona gideceğini belirler.
+- "/" isteği -> Anasayfa fonksiyonuna
+- "/kitaplar" isteği -> Tüm kitapları getiren fonksiyona yönlendirilir.
