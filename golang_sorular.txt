@@ -1,0 +1,79 @@
+1. Go (Golang) programlama dili hangi şirket tarafından geliştirilmiştir ve açık kaynaklı hale getirilmiştir?
+A) Microsoft
+B) Apple
+C) Google
+D) Facebook
+
+Cevap: C
+
+2. Go dilinde bir değişkeni tanımlarken tipini belirtmeden, değer üzerinden otomatik algılanmasını sağlayan "kısa tanımlama operatörü" hangisidir?
+A) :=
+B) =>
+C) ->
+D) ==
+
+Cevap: A
+
+3. Go dilinde döngü oluşturmak için kullanılan tek anahtar kelime hangisidir? (While veya do-while yerine de bu kullanılır)
+A) loop
+B) while
+C) repeat
+D) for
+
+Cevap: D
+
+4. Go dilinin en güçlü özelliklerinden biri olan, "Thread"lere göre çok daha az bellek harcayan ve eşzamanlı (concurrency) işlemleri yöneten yapıya ne ad verilir?
+A) Async/Await
+B) Goroutine
+C) Lambda
+D) Task
+
+Cevap: B
+
+5. Go dilinde bir fonksiyonun veya değişkenin diğer paketler tarafından erişilebilir (public/exported) olması için ne yapılmalıdır?
+A) Başına "public" yazılmalıdır.
+B) Başına "export" yazılmalıdır.
+C) İsminin ilk harfi BÜYÜK yazılmalıdır.
+D) İsminin sonuna "()" konulmalıdır.
+
+Cevap: C
+
+6. Go kodunu derlemeden, doğrudan terminal üzerinde çalıştırıp sonucunu görmek için kullanılan komut hangisidir?
+A) go build
+B) go run
+C) go start
+D) go install
+
+Cevap: B
+
+7. Go dilinde hata yönetimi (Error Handling) için kullanılan yaklaşım nasıldır?
+A) Try-Catch blokları kullanılır.
+B) Hatalar görmezden gelinir, program durur.
+C) "throw" komutu ile hata fırlatılır.
+D) Hata bir değer olarak döndürülür ve "if err != nil" ile kontrol edilir.
+
+Cevap: D
+
+8. Go'da kullanılmayan (tanımlanmış ama kod içinde çağrılmamış) bir değişken olduğunda derleyici nasıl tepki verir?
+A) Sadece uyarı verir, çalışmaya devam eder.
+B) Değişkeni otomatik siler.
+C) Hata verir ve programı derlemez.
+D) Değişkenin değerini "null" yapar.
+
+Cevap: C
+
+9. Go projelerinde bağımlılıkları (dependencies) ve modül versiyonlarını yöneten dosyanın adı nedir?
+A) go.mod
+B) package.json
+C) requirements.txt
+D) pom.xml
+
+Cevap: A
+
+10. Bir fonksiyon çalışmasını bitirmeden hemen önce (örneğin dosya kapatma işlemleri için) çalışması garanti edilen kod bloğunu tanımlayan anahtar kelime hangisidir?
+A) finally
+B) last
+C) end
+D) defer
+
+Cevap: D
